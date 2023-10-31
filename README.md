@@ -154,4 +154,4 @@ Me envie uma mensagem no [WhatsApp](https://api.whatsapp.com/send?phone=55119512
 
 ---
 ## *Contribuintes* 🔥👊
-Este projeto foi desenvolvido durante o curso Formação Desenvolvedor Moderno da escola [@DevSuperior](https://devsuperior.com.br), sobe orientação do tutor [Nelio Alves](https://www.linkedin.com/in/nelio-alves/?originalSubdomain=br).
+Este projeto foi desenvolvido durante o curso Formação Desenvolvedor Moderno da escola [DevSuperior](https://devsuperior.com.br), sobe orientação do tutor [Nelio Alves](https://www.linkedin.com/in/nelio-alves/?originalSubdomain=br).
