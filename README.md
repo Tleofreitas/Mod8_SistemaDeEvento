@@ -66,7 +66,7 @@ Selecione a pasta onde você salvou o projeto, Finish
 
 Aguarde a importação do projeto (acompanhe a barra de carregamento no canto inferior direito).
 
-### 3.2) Abrir projeto com IntelliJ Community
+### 3.2) Abrir projeto com IntelliJ
 Clique em Open, selecione a pasta onde você salvou o projeto, Ok...
 <br></br>
 
@@ -77,6 +77,59 @@ Caso apareça a tela abaixo, selecione Maven Project...
 ![image](https://github.com/Tleofreitas/Mod8_SistemaDeEvento/assets/88738577/78d9394f-3a72-48db-bd6b-887931ee1537)
 
 Aguarde a importação do projeto (acompanhe a barra de carregamento no canto inferior direito).
+
+### 4) Executar o Projeto
+### 4.1) Executar projeto com STS
+No menu Boot Dashboard, clique com botão direito em sistemaDeEvento, (Re)start e aguarde o programa ser iniciado...
+
+![image](https://github.com/Tleofreitas/Mod8_SistemaDeEvento/assets/88738577/32f2e54f-d599-421f-a3d7-996015c5f1e5)
+
+Neste mesmo menu, a indicação de em execução é uma seta verde para cima
+
+![image](https://github.com/Tleofreitas/Mod8_SistemaDeEvento/assets/88738577/61604bf0-1b70-4eef-a191-586cc54e17a6)
+
+No menu Console, pode-se ver o tempo de inicialização e a indicação de processo rodando...
+
+![image](https://github.com/Tleofreitas/Mod8_SistemaDeEvento/assets/88738577/0cd3e4bf-6d7e-4704-8da3-3d94793d5cdd)
+
+### 4.2) Executar projeto com IntelliJ
+Acesse Mod8_SistemaDeEvento-main > src > main > java > SistemaDeEventoApplication, clique com botão direito e clique em Run 'Sistema...' e aguarde o programa ser iniciado...
+
+![image](https://github.com/Tleofreitas/Mod8_SistemaDeEvento/assets/88738577/3394cfa6-2a32-48fa-9c44-186b998c255f)
+
+No menu Run, pode-se ver o tempo de inicialização e a indicação de processo rodando...
+
+![image](https://github.com/Tleofreitas/Mod8_SistemaDeEvento/assets/88738577/e42bb25a-a81d-4c80-8cb1-98c625535218)
+
+### 5) Com o Programa em Execução
+Acesse o H2 DataBase com o link http://localhost:8080/h2-console
+
+Informações de acesso: <br></br>
+Driver Class: org.h2.Driver <br></br>
+JDBC URL: jdbc:h2:mem:testdb <br></br>
+User Name: sa <br></br>
+Senha: <br></br>
+![image](https://github.com/Tleofreitas/Mod8_SistemaDeEvento/assets/88738577/4ee2657b-ada6-46a9-b782-889ac83f75f1)
+
+### Criação de tabelas
+As tabelas que foram criadas podem ser vistas no lado esquerdo conforme diagrama de clases
+
+![image](https://github.com/Tleofreitas/Mod8_SistemaDeEvento/assets/88738577/b1145b2d-2f3e-41ae-8196-12863cfe258c)
+
+### Seed de dados
+Para ver o seed de dados conforme diagrama de objetos, selecione a tabela e clique em Run. Para realizar outra pesquisa, limpe a consulta anterior com Clear. Os retorno da consulta aparece logo abaixo.
+
+![image](https://github.com/Tleofreitas/Mod8_SistemaDeEvento/assets/88738577/8c06eef8-8649-4351-979e-40520ca12473)
+
+### Modelo de Domínio e ORM
+### Relacionamento Muitos para Muitos de Participante e Atividade
+![image](https://github.com/Tleofreitas/Mod8_SistemaDeEvento/assets/88738577/501c9c7d-5e04-4ce9-af4d-07f940044644)
+
+### Relacionamento Muitos para Um de Atividade e Categoria
+![image](https://github.com/Tleofreitas/Mod8_SistemaDeEvento/assets/88738577/16dd9f77-af3c-4365-b0dc-5da8f69ce434)
+
+### Relacionamento Um para Muitos Atividade e Bloco
+![image](https://github.com/Tleofreitas/Mod8_SistemaDeEvento/assets/88738577/e06b8fc2-f69a-420f-92a2-71f012ed7a93)
 
 ---
 ## ⚠️ *Erros comuns* ⚠️
@@ -94,6 +147,10 @@ Caso você não tenha o JDK instalado, siga com o passo <i><b>Pré-requisitos pa
 ### Abrir o projeto
 Após os arquivos serem carregados, pode acontecer de aparecer um X ou um ! vermelho. Caso isso ocorra, tente as soluções deste
 tutorial: https://www.youtube.com/watch?v=Je4JWWJcyo0
+
+---
+## *Dúvidas? Contate-me*
+Me envie uma mensagem no [WhatsApp](https://api.whatsapp.com/send?phone=5511951221949)
 
 ---
 ## *Contribuintes* 🔥👊
