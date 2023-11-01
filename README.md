@@ -104,11 +104,12 @@ No menu Run, pode-se ver o tempo de inicialização e a indicação de processo 
 ### 5) Com o Programa em Execução
 Acesse o H2 DataBase com o link http://localhost:8080/h2-console
 
-Informações de acesso: <br></br>
-Driver Class: org.h2.Driver <br></br>
-JDBC URL: jdbc:h2:mem:testdb <br></br>
-User Name: sa <br></br>
-Senha: <br></br>
+Informações de acesso:
+- Driver Class: org.h2.Driver
+- JDBC URL: jdbc:h2:mem:testdb
+- User Name: sa
+- Senha:
+
 ![image](https://github.com/Tleofreitas/Mod8_SistemaDeEvento/assets/88738577/4ee2657b-ada6-46a9-b782-889ac83f75f1)
 
 ### Criação de tabelas
@@ -117,7 +118,7 @@ As tabelas que foram criadas podem ser vistas no lado esquerdo conforme diagrama
 ![image](https://github.com/Tleofreitas/Mod8_SistemaDeEvento/assets/88738577/b1145b2d-2f3e-41ae-8196-12863cfe258c)
 
 ### Seed de dados
-Para ver o seed de dados conforme diagrama de objetos, selecione a tabela e clique em Run. Para realizar outra pesquisa, limpe a consulta anterior com Clear. Os retorno da consulta aparece logo abaixo.
+Para ver o seed de dados conforme diagrama de objetos, selecione a tabela e clique em Run. Para realizar outra pesquisa, limpe a consulta anterior com Clear. O retorno da consulta aparece logo abaixo.
 
 ![image](https://github.com/Tleofreitas/Mod8_SistemaDeEvento/assets/88738577/8c06eef8-8649-4351-979e-40520ca12473)
 
